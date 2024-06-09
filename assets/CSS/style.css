@@ -1,0 +1,105 @@
+div{
+    padding: 50px;
+
+}
+
+.principal{
+    display: flex;
+    background-color: black;
+    padding: 0;
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    border: solid 1px rgb(180, 180, 180);
+    width: 20%;
+    padding: 0;
+}
+
+.usuario{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.datosusuario{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.fotoperfilmini{
+    width: 40px;
+    border-radius: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.perfil{
+    margin: 0;
+    padding: 0;
+}
+
+.perfil2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.perfil2 h3,p{
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.iconosusuario{
+    display:flex ;
+    background-color: aqua;
+    padding: 10px;
+}
+
+.nuevochat{
+    display: flex ;
+    background-color: green;
+}
+
+.chat{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(180, 180, 180);
+    padding:10px;
+    height: 100%;
+}
+
+.fotoperfil{
+    width: 55px;
+    border-radius: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.chatprincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+    width: 100%;
+
+
+}
+
+.chatprincipal h1{
+    margin-bottom: 0;
+}
+
+.chatprincipal p{
+    margin-top: 0;
+}
+
+
