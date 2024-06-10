@@ -6,6 +6,11 @@ div{
 
 }
 
+i{
+    font-size: 24px;
+    color: black;
+}
+
 .principal{
     display: flex;
     background-color: black;
@@ -17,7 +22,7 @@ div{
     flex-direction: column;
     justify-content: space-evenly;
     background-color: white;
-    border: solid 1px rgb(180, 180, 180);
+    border: solid 2px #BEC1BB;
     width: 20%;
     padding: 0;
 }
@@ -78,8 +83,20 @@ div{
 
 .iconosusuario{
     display:flex ;
-    background-color: aqua;
     padding: 10px;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.fa-message{
+    color: #828485;
+}
+
+.fa-bars{
+    color: #828485;
 }
 
 .nuevochat{
